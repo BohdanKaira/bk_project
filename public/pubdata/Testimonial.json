@@ -1,0 +1,37 @@
+[
+    {
+        "class": "reviews__item item-reviews reviews__item_1 ",
+        "img": "/img/clients/01.webp",
+        "text": "The team was professional, responsive, and a pleasure to work with. We highly recommend VRNas for any VR needs.",
+        "name": "Robert Fox",
+        "position": " - CEO Anono"
+    },
+    {
+        "class": "reviews__item item-reviews reviews__item_2 ",
+        "img": "/img/clients/02.webp",
+        "text": "The team was professional, responsive, and a pleasure to work with. We highly recommend VRNas for any VR needs.",
+        "name": "Robert Fox",
+        "position": " - CEO Anono"
+    },
+    {
+        "class": "reviews__item item-reviews reviews__item_3 ",
+        "img": "/img/clients/03.webp",
+        "text": "The team was professional, responsive, and a pleasure to work with. We highly recommend VRNas for any VR needs.",
+        "name": "Robert Fox",
+        "position": " - CEO Anono"
+    },
+    {
+        "class": "reviews__item item-reviews reviews__item_4 ",
+        "img": "/img/clients/04.webp",
+        "text": "The team was professional, responsive, and a pleasure to work with. We highly recommend VRNas for any VR needs.",
+        "name": "Robert Fox",
+        "position": " - CEO Anono"
+    },
+    {
+        "class": "reviews__item item-reviews reviews__item_5 ",
+        "img": "/img/clients/05.webp",
+        "text": "The team was professional, responsive, and a pleasure to work with. We highly recommend VRNas for any VR needs.",
+        "name": "Robert Fox",
+        "position": " - CEO Anono"
+    }
+]

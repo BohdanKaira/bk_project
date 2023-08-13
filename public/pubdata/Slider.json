@@ -1,0 +1,22 @@
+[
+    {
+        "img": "img/articles/01.webp",
+        "title": "VR Games",
+        "descr": "Entertainment Goes Virtual: The Rise of VR Gaming."
+    },
+    {
+        "img": "img/articles/04.webp",
+        "title": "VR Architecture",
+        "descr": "Architects can use VR to accurately gauge the scale and proportions of their designs."
+    },
+    {
+        "img": "img/articles/01.webp",
+        "title": "VR Education",
+        "descr": "Despite its numerous advantages, VR education also faces challenges."
+    },
+    {
+        "img": "img/articles/04.webp",
+        "title": "VR Entertainment",
+        "descr": "Bringing Designs to Life: How VR is Changing Architecture."
+    }
+]

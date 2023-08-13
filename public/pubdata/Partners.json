@@ -1,0 +1,9 @@
+[
+    {"class": "companies__slide companies__slide_1 swiper-slide", "img": "img/companies/01.svg"},
+    {"class": "companies__slide companies__slide_2 swiper-slide", "img": "img/companies/02.svg"},
+    {"class": "companies__slide companies__slide_3 swiper-slide", "img": "img/companies/03.svg"},
+    {"class": "companies__slide companies__slide_4 swiper-slide", "img": "img/companies/04.svg"},
+    {"class": "companies__slide companies__slide_5 swiper-slide", "img": "img/companies/05.svg"},
+    {"class": "companies__slide companies__slide_6 swiper-slide", "img": "img/companies/06.svg"},
+    {"class": "companies__slide companies__slide_7 swiper-slide", "img": "img/companies/07.svg"}
+]
