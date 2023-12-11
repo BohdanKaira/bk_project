@@ -1,7 +1,7 @@
 {
   "name": "bk_project",
   "version": "0.1.0",
-  "homepage": "https://bohdankaira.github.io/bk_project/",
+  "homepage": "https://bohdankaira.github.io/bk_project",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "better-react-carousel": "^1.1.1",
+    "gh-pages": "^6.1.0",
     "ky": "^0.33.3",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
@@ -28,6 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
