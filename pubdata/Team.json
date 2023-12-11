@@ -1,0 +1,32 @@
+[
+    {
+        "img": "img/team/01.webp",
+        "name": "Bondan Prabowo",
+        "position": "CEO"
+    },
+    {
+        "img": "img/team/02.webp",
+        "name": "Bayu Aji",
+        "position": "VR Development"
+    },
+    {
+        "img": "img/team/03.webp",
+        "name": "Agung Brandon",
+        "position": "VR Artist"
+    },
+    {
+        "img": "img/team/04.webp",
+        "name": "Aril Laso",
+        "position": "UI / UX Designer"
+    },
+    {
+        "img": "img/team/05.webp",
+        "name": "Aldo Boy",
+        "position": "3D Designe"
+    },
+    {
+        "img": "img/team/06.webp",
+        "name": "Beni Barak",
+        "position": "3D Artist"
+    }
+]
