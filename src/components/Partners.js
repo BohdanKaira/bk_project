@@ -36,10 +36,10 @@ function Partners() {
                             )}    	
 						</div>
 					</div>
-                    <div class="companies__controls">
-                        <button type="button" class="companies__button companies__button_prev _icon-arrow"></button>
-                        <button type="button" class="companies__button companies__button_next _icon-arrow"></button>
-					</div>
+                    {/* <div className="companies__controls">
+                        <button type="button" className="companies__button companies__button_prev _icon-arrow"></button>
+                        <button type="button" className="companies__button companies__button_next _icon-arrow"></button>
+					</div> */}
 				</div>
 			</section>
     )

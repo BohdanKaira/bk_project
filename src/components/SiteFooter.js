@@ -10,7 +10,6 @@ function SiteFooter() {
 							<img src="img/icons/logo.svg" alt="" />
 						</div>
 						<ul className="footer__links links-footer">
-						
 							<li className="links-footer__link">
 								<a href="https://twitter.com" rel="noreferrer nofollow" target="_blank" className="_icon-twitter" />
 							</li>

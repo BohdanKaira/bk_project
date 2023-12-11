@@ -1,0 +1,170 @@
+.reviews {
+	transition: all 0.5s ease 0s !important;
+	margin: 0px 0px 100px 0px;
+}
+.reviews__container {
+	position: relative;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reviews__top {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.reviews__subtitle {
+	text-align: center;
+}
+.reviews__title {
+	text-align: center;
+}
+.reviews__image {
+	img {
+		width: 78rem;
+		height: 78rem;
+	}
+}
+
+.reviews__item {
+	position: absolute;
+	transition: all 0.7s ease 0s;
+}
+
+
+.reviews__item_1 {
+	top: 23%;
+	left: 3%;
+	
+}
+.reviews__item_2 {
+	top: 20%;
+	left: 60%;
+	
+}
+.reviews__item_3 {
+	top: 51%;
+	left: 83.5%;
+
+}
+.reviews__item_4 {
+	top: 69%;
+	left: 45%;
+
+}
+.reviews__item_5 {
+	top: 75%;
+	left: 13%;
+
+}
+.reviews__item_6 {
+	top: 88%;
+	left: 76%;
+
+}
+.item-reviews {
+	width: 100%;
+	max-width: 21.875rem;
+}
+.item-reviews_active {
+	z-index: 4;
+	.item-reviews__button {
+		&::before {
+			opacity: 1;
+		}
+		&::after {
+			opacity: 1;
+		}
+	}
+	.item-reviews__content {
+		padding: 0.9375rem 1.25rem;
+		transform: translate(30%, -50%) scale(1);
+		overflow: visible;
+		opacity: 1;
+		visibility: visible;
+		height: auto;
+		width: 18.75rem;
+	}
+}
+.item-reviews__button {
+	position: relative;
+	border-radius: 50%;
+	flex: 0 0 4.6875rem;
+	width: 4.6875rem;
+	height: 4.6875rem;
+	background: url("./../../img/decor/client-circle.svg") 0 0 no-repeat;
+	img {
+		position: relative;
+		z-index: 2;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	&::before {
+		content: "";
+		transition: all 0.3s ease 0s;
+		opacity: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: url("./../../img/decor/client-cirlceBackground.svg") 0 0 no-repeat;
+	}
+	&::after {
+		content: "";
+		opacity: 0;
+		transition: all 0.3s ease 0s;
+		position: absolute;
+		width: 70%;
+		height: 40%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) rotate(-45deg);
+		background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+		filter: blur(12px);
+	}
+}
+.item-reviews__content {
+	font-size: 0.75rem;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 0;
+	transform: translate(-20%, -50%) scale(0);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease 0s;
+	width: 18.75rem;
+	padding: 0px 0px 0px 0px;
+	background: url("./../../img/decor/client-background.webp") 0 0/100% 100% no-repeat;
+}
+.item-reviews__text {
+	font-family: Chakra Petch;
+	font-weight: 400;
+	line-height: 1.6666666667;
+	&:not(:last-child) {
+		margin-bottom: 0.6666666667em;
+	}
+}
+.item-reviews__name {
+	display: inline-block;
+	position: relative;
+	color: #b0b0b2;
+	font-weight: 400;
+	line-height: 2;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 0.0625rem;
+		bottom: -0.1875rem;
+		left: 0;
+		background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+	}
+	span {
+		color: #fff;
+	}
+}

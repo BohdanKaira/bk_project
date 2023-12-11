@@ -1,0 +1,63 @@
+._button-border {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 1.125rem 2.375rem;
+	font-weight: 300;
+	line-height: 1;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	background: linear-gradient(to right, #0cbaf1 0%, #e95ce9 100%) left top/100% 1px no-repeat, linear-gradient(to right, #0cbaf1 0%, #e95ce9 100%) left bottom/100% 1px no-repeat;
+	background-color: rgba(255, 255, 255, 0.06);
+	transition: all 0.3s ease 0s;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		top: 0;
+		right: 0;
+		border: 1px solid #e95ce9;
+		border-right: none;
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		border: 1px solid #0cbaf1;
+		border-right: none;
+	}
+	&:hover {
+		box-shadow:  20px 0px 40px #e95ce9,
+		-20px 0px 40px #0cbaf1;
+	}
+}
+._button {
+	padding: 1.125rem 2.375rem;
+	background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	transition: opacity 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	&:hover {
+		box-shadow:  20px 0px 40px #e95ce9,
+		-20px 0px 40px #0cbaf1;
+		transition: all 0.3s ease 0s;
+	}
+}
+._border-gradient {
+	background: linear-gradient(#252532, #252532) 50% 50% / calc(100% - 2px) calc(100% - 2px) no-repeat, linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0, transparent 100%);
+}
+._gradient-before {
+	&::before {
+		background: linear-gradient(to right, #0cbaf1 0%, #e95ce9 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+}

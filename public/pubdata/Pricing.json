@@ -10,7 +10,7 @@
         "text": "We offer flexible payment options to make it easy for you to get started with our services. We accept various payment methods, including credit cards, bank transfers, and PayPal, and we can also work with you to create a payment plan that suits your needs."
     },
     {
-        "icon": "img/icons/cloud.svg",
+        "icon": "/img/icons/cloud.svg",
         "title": "Satisfaction Guarantee",
         "text": "We stand behind our services and are committed to ensuring that you are completely satisfied with the final product. If for any reason you are not happy with our services, we will work with you to make it right or provide a full refund."
     }

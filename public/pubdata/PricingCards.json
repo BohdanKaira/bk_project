@@ -1,0 +1,32 @@
+[
+    {
+        "PlanName": "Basic Plan",
+        "Price": "$99",
+        "Span": "/month",
+        "Text": "All the basic features to boost your freelance career",
+        "Advantage1": "Access to a selection of VR games and experiences",
+        "Advantage2": "Limited access to educational content",
+        "Advantage3": "Limited access to architecture and design tools",
+        "Advantage4": "No access to exclusive events or promotions"
+    },
+    {
+        "PlanName": "Standard Plan",
+        "Price": "$149",
+        "Span": "/month",
+        "Text": "All the basic features to boost your freelance career",
+        "Advantage1": "Access to a selection of VR games and experiences",
+        "Advantage2": "Limited access to educational content",
+        "Advantage3": "Limited access to architecture and design tools",
+        "Advantage4": "Access to exclusive events and promotions"
+    },
+    {
+        "PlanName": "Advanced Plan",
+        "Price": "$199",
+        "Span": "/month",
+        "Text": "All the basic features to boost your freelance career",
+        "Advantage1": "Access to a selection of VR games and experiences",
+        "Advantage2": "Unlimited access to educational content",
+        "Advantage3": "Unlmited access to architecture and design tools",
+        "Advantage4": "Priority access to exclusive events and promotions"
+    }
+]

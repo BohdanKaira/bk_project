@@ -1,0 +1,17 @@
+[
+    {
+        "image": "/img/icons/message-circle.svg",
+        "title": "EMAIL",
+        "content": "Support@VRNas.com"
+    },
+    {
+        "image": "/img/icons/location-circle.svg",
+        "title": "ADDRESS",
+        "content": "Tanjung Sari Street no.48, Pontianak City"
+    },
+    {
+        "image": "/img/icons/phone-circle.svg",
+        "title": "PHONE",
+        "content": "+123 456 7890"
+    }
+]

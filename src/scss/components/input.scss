@@ -1,0 +1,41 @@
+.did-floating-label-content { 
+    position:relative; 
+    
+  }
+  .did-floating-label {
+    color:#b0b0b2; 
+    position:absolute;
+    pointer-events:none;
+    left:15px;
+    top:11px;
+    padding:0 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+    line-height: 1.75;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .did-floating-input {
+    &:focus{
+      outline:none;
+      ~ .did-floating-label{
+        top:-10px;
+        font-size:0.8rem;
+        z-index: 100000;
+        color: #fff;
+      }
+    }
+  }
+  
+  .did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+    top:-8px;
+    font-size:13px;
+  }
+  .input-error {
+    margin-top: 5px;
+    color: red;
+  }
+
+  

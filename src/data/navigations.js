@@ -2,21 +2,9 @@ export const MainMenu = [
     {title: 'Home', to: '/'},
     {title: 'About us', to: 'about'},
     {title: 'Service', to: 'service'},
-    {title: 'Page', to: 'pricing-plan',
-        children: [
-            {title: 'Pricing Plan', to: 'pricing-plan'},
-            {title: 'FAQ', to: 'faq'},
-            {title: 'Terms & Conditions', to: 'terms-conditions'},
-            {title: 'Privacy Policy', to: 'privacy-police'}
-        ]
-    },
-    {title: 'Blog', to: 'blog',
-        children: [
-            {title: 'Detail Service', to: 'detail-service'},
-            {title: 'Blog', to: 'blog'},
-            {title: 'Our Team', to: 'team'}
-        ]
-    }  
+    {title: 'Pricing Plan', to: 'pricing-plan'},
+    {title: 'Blog', to: 'blog'},
+    // {title: 'Our Team', to: 'team'}  
 ]
 export const FooterMenuQuicklinks = [
     {title: 'Home', to: '/'},

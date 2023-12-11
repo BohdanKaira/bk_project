@@ -1,0 +1,209 @@
+.preview-video__image {
+    width: 100%;
+    height: 100%;
+}
+.preview-video__name {
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2px 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.preview-video__bar {
+    position: relative;
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.video {
+margin: 0px 0px 6.25rem 0px;
+}
+.video__container {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+&::before {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    top: 20%;
+    left: 0;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+    filter: blur(150px);
+    transform: translate(-50%);
+}
+}
+.video__subtitle {
+transition: all 0.5s ease 0.3s !important;
+text-align: center;
+&:not(:last-child) {
+    margin-bottom: 0.75em;
+}
+}
+.video__title {
+transition: all 0.5s ease 0s !important;
+margin: 0 auto;
+text-align: center;
+max-width: 56.25rem;
+&:not(:last-child) {
+    margin-bottom: 1em;
+}
+}
+.video__content {
+width: 100%;
+transition: all 1s ease 0s !important;
+position: relative;
+padding: 0px 0px 46% 0px;
+}
+.video__preview {
+border-radius: 12px;
+overflow: hidden;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.video__frame {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+iframe {
+    width: 100%;
+    height: 100%;
+}
+}
+.video__button {
+display: block;
+text-align: center;
+margin: 0 auto;
+&:not(:first-child) {
+    margin: 3rem auto 0px;
+}
+}
+.preview-video__button {
+&::before {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    backdrop-filter: blur(8px);
+    opacity: 0.6;
+}
+}
+@supports (
+  font-size: clamp(2.5rem, 1.1813186813rem + 6.5934065934vw, 6.25rem)
+) {
+  .preview-video__button::before {
+    font-size: clamp(2.5rem, 1.1813186813rem + 6.5934065934vw, 6.25rem);
+  }
+}
+
+@supports not (
+  font-size: clamp(2.5rem, 1.1813186813rem + 6.5934065934vw, 6.25rem)
+) {
+  .preview-video__button::before {
+    font-size: calc(2.5rem + 3.75 * (100vw - 20rem) / 56.875);
+  }
+}
+.preview-video__info {
+display: flex;
+align-items: start;
+justify-content: start;
+flex-direction: column;
+position: absolute;
+top: 3.25rem;
+left: 2.125rem;
+}
+.preview-video__name {
+&:not(:last-child) {
+    margin-bottom: 0.8571428571em;
+}
+}
+.preview-video__title {
+font-size: 2.25rem;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: -0.72px;
+}
+.preview-video__bottom {
+cursor: pointer;
+position: absolute;
+bottom: 2.0625rem;
+left: 2.0625rem;
+right: 2.0625rem;
+display: flex;
+align-items: center;
+gap: 0.75rem;
+}
+@supports (
+  bottom: clamp(1.25rem, 0.9642857143rem + 1.4285714286vw, 2.0625rem)
+) {
+  .preview-video__bottom {
+    bottom: clamp(1.25rem, 0.9642857143rem + 1.4285714286vw, 2.0625rem);
+  }
+}
+
+@supports not (
+  bottom: clamp(1.25rem, 0.9642857143rem + 1.4285714286vw, 2.0625rem)
+) {
+  .preview-video__bottom {
+    bottom: calc(1.25rem + 0.8125 * (100vw - 20rem) / 56.875);
+  }
+}
+
+@supports (left: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem)) {
+  .preview-video__bottom {
+    left: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem);
+  }
+}
+
+@supports not (left: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem)) {
+  .preview-video__bottom {
+    left: calc(1rem + 1.0625 * (100vw - 20rem) / 56.875);
+  }
+}
+
+@supports (right: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem)) {
+  .preview-video__bottom {
+    right: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem);
+  }
+}
+
+@supports not (
+  right: clamp(1rem, 0.6263736264rem + 1.8681318681vw, 2.0625rem)
+) {
+  .preview-video__bottom {
+    right: calc(1rem + 1.0625 * (100vw - 20rem) / 56.875);
+  }
+}
+.preview-video__bar_load {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 5rem;
+border-radius: 4px;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.preview-video__bar_time {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 0.5rem;
+border-radius: 4px;
+background-color: #fff;
+}

@@ -1,0 +1,120 @@
+.service {
+	margin: 0px 0px 23.125rem 0px; 
+	@media (max-width: 62em) {
+    	margin: 0px 0px 15rem 0px;
+    }
+	@media (max-width: 50em) {
+   		margin: 0px 0px 10rem 0px;
+   	}
+	@media (max-width: 32em) {
+   		margin: 0px 0px 5rem 0px;
+   }
+}
+.service__container {
+	position: relative;
+	&::after {
+		content: "";
+		z-index: -2;
+		position: absolute;
+		width: 400px;
+		height: 150px;
+		top: -10%;
+		right: -10%;
+		background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+		filter: blur(100px);
+		transform: translateY(50%) rotate(-25deg);
+	}
+}
+.service__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	gap: 2.5rem;
+	&:not(:last-child) {
+		margin-bottom: 2.875rem;
+	}
+}
+.service__titles {
+	text-align: start;
+}
+.service__subtitle {
+	&:not(:last-child) {
+		margin-bottom: 0.75em;
+	}
+}
+.service__text {
+	flex: 0 1 34.375rem;
+}
+.service__body {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.25rem;
+	@media (max-width: 62em) {
+		grid-template-columns: 1fr 1fr;
+	}
+	@media (max-width: 48em) {
+		grid-template-columns: 1fr;
+	}
+}
+.service__item {
+	width: 100%;
+	padding: 2.5rem;
+}
+.item-service {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.item-service__image {
+	font-size: 3rem;
+	&:not(:last-child) {
+		margin-bottom: 1.25em;
+	}
+}
+.item-service__title {
+	&:not(:last-child) {
+		margin-bottom: 0.6em;
+	}
+}
+.item-service__hover {
+	transition: all 0.3s ease 0s;
+	opacity: 0;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	visibility: hidden;
+	touch-action: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(180deg, rgba(37, 37, 50, 0) 10%, #252532 100%);
+	&::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: linear-gradient(to right, #0cbaf1 0%, #e95ce9 100%) left top/100% 1px no-repeat, linear-gradient(to right, #0cbaf1 0%, #e95ce9 100%) right bottom/100% 1px no-repeat, linear-gradient(to right, #0cbaf1 100%, #e95ce9 100%) left top/1px 100% no-repeat, linear-gradient(to right, #0cbaf1 0%, #e95ce9 0%) right top/1px 100% no-repeat;
+	}
+}
+.item-service__link {
+	display: none;
+	line-height: 0.875;
+	&:not(:first-child) {
+		margin: 1.25rem 0px 0px 0px;
+	}
+}
+.item-service__button {
+	line-height: 0.875;
+	background-color: transparent;
+	position: absolute;
+	bottom: 1.75rem;
+	left: 50%;
+	transform: translate(-50%, 1.875rem);
+	visibility: hidden;
+	touch-action: none;
+}

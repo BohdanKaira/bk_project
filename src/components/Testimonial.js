@@ -29,8 +29,8 @@ function Testimonial() {
 					</div>
 					{testimonial.map((item, index) => {
 					return (
-					<>
-						<div key={index} className={`${item.class} ${openIndex === index ? 'item-reviews_active' : ''}`}>
+					<div key={index}>
+						<div  className={`${item.class} ${openIndex === index ? 'item-reviews_active' : ''}`}>
 							<button type="button" className="item-reviews__button" onClick={() => handleClick(index)}>
 								<img src={item.img} alt="client" />
 							</button>
@@ -43,7 +43,7 @@ function Testimonial() {
 								</p>
 							</div> 
 						</div>
-					</>)
+					</div>)
 					})}
 				</div>
 			</section>

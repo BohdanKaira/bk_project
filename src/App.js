@@ -1,4 +1,4 @@
-import './css/style.css';
+import './scss/style.scss';
 import { Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -6,15 +6,16 @@ import 'aos/dist/aos.css';
 import Default from './layouts/default';
 import Home from './pages/Home';
 import About from './pages/About';
-import Service from './pages/Service';
 import PricingPlan from './pages/PricingPlan'
 import FAQ from './pages/FAQ'
 import TermsAndConditions from './pages/TermsAndConditions'
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import DetailService from './pages/DetailService';
 import Blog from './pages/Blog';
 import OurTeam from './pages/OurTeam';
 import ContactUs from './pages/Contact';
+import Article from './pages/Article';
+import ServicePage from './pages/Service';
+import DetailService from './pages/DetailService';
 
 
 function App() {
@@ -28,13 +29,14 @@ function App() {
           <Route path='/' element={<Default />}>
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
-            <Route path='service' element={<Service />} />
+            <Route path='service' element={<ServicePage />} />
+            <Route path='service/detail-service' element={<DetailService />} />
             <Route path='pricing-plan' element={<PricingPlan />} />
             <Route path='faq' element={<FAQ />} />
             <Route path='terms-conditions' element={<TermsAndConditions />} />
             <Route path='privacy-police' element={<PrivacyPolicy />} />
-            <Route path='detail-service' element={<DetailService />} />
             <Route path='blog' element={<Blog />} />
+            <Route path='blog/:hash' element={<Article />} />
             <Route path='team' element={<OurTeam />} />
             <Route path='contact' element={<ContactUs />} />
           </Route>

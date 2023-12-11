@@ -1,0 +1,27 @@
+.statistic {
+	margin: 0px 0px 9.375rem 0px;
+}
+.statistic__container {
+	padding-top: 3.75rem;
+	padding-bottom: 3.75rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	column-gap: 1.875rem;
+	row-gap: 3.125rem;
+	position: relative;
+	background: radial-gradient( 50% 50% at 50% 50%, #343445 0%, rgba(32, 32, 41, 0) 100% );
+}
+.statistic__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625rem;
+}
+.statistic_subtitle {
+	&:not(:last-child) {
+		margin-bottom: 0.75em;
+	}
+}

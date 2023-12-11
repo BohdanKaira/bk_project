@@ -1,0 +1,120 @@
+.about {
+	margin: 0px 0px 10.625rem 0px;
+	@media (max-width: 48em) {
+		margin: 0px 0px 9.375rem 0px;
+	}
+	@media (max-width: 30em) {
+		margin: 0px 0px 6.25rem 0px;
+	}
+}
+.about__container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(12.5rem, 1fr));
+	gap: 5.625rem;
+	@media (max-width: 48em) {
+		grid-template-columns: 1fr;
+	}
+}
+.about__left {
+	transition: all 0.7s ease 0s !important;
+	position: relative;
+}
+.about__image {
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	&::before {
+		content: "";
+		z-index: -2;
+		position: absolute;
+		width: 400px;
+		height: 250px;
+		bottom: 50%;
+		left: 0;
+		background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+		filter: blur(150px);
+		transform: translateY(50%) rotate(-45deg);
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: -3;
+		bottom: 0;
+		left: -0.625rem;
+		width: 80%;
+		height: 75%;
+		background-color: #252532;
+	}
+}
+.about__video {
+	cursor: pointer;
+	position: absolute;
+	padding: 1.25rem 1.875rem;
+	background-color: #252532;
+	bottom: -1.25rem;
+	right: 1.875rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about__video_play {
+	z-index: 2;
+	transition: all 0.3s ease 0s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.about__video_img {
+	transition: all 0.3s ease 0s;
+}
+.about__content {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.about__subtitle {
+	&:not(:last-child) {
+		margin-bottom: 0.75em;
+	}
+}
+.about__title {
+	text-align: start;
+	&:not(:last-child) {
+		margin-bottom: 0.25em;
+	}
+}
+.about__text {
+	&:not(:last-child) {
+		margin-bottom: 1.5em;
+	}
+}
+.about__list {
+	&:not(:last-child) {
+		margin-bottom: 2rem;
+	}
+}
+.list-about__item {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 0.75rem;
+	font-weight: 400;
+	line-height: 1.75;
+	&:not(:last-child) {
+		margin-bottom: 0.875em;
+	}
+	&:nth-child(1) {
+		transition: all 0.6s ease 0s !important;
+	}
+	&:nth-child(2) {
+		transition: all 0.6s ease 0.3s !important;
+	}
+	&:nth-child(3) {
+		transition: all 0.6s ease 0.5s !important;
+	}
+}

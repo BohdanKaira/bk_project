@@ -41,3 +41,49 @@ export const SliderContent ={
     h2: "Stay Up-to-Date with Our VR Insights",
     h4: "Popular Article"
 }
+export const TeamContent = {
+    h3: "OUR TEAM",
+    h2: "Meet Our Amazing Team"
+}
+export const StatisticContent = {
+    clientSubtitle: "HAPPY CLIENTS",
+    clientTitle: "123k+",
+    projectSubtitle: "PROJECT COMPLETE",
+    porjectTitle: "300k+",
+    expSubtitle: "YEARS EXPERIENCE",
+    expTitle: "10+"
+}
+export const AboutInfoContent ={
+    h3: "ABOUT US",
+    h2: "Bringing Your Vision to Life: Learn About VRNas",
+    text: "VRNas is a leading provider of VR services for education, entertainment, architecture, and events. Our mission is to bring the power of virtual reality to everyone, allowing them to explore new worlds, learn in new ways, and experience events in a whole new light. Our team consists of experienced VR developers, designers, and technicians who are passionate about VR and dedicated to delivering the highest quality work. We use the latest VR hardware and software to create immersive, interactive experiences that are tailored to your specific needs. From initial consultation to final delivery, we are committed to providing exceptional customer service. Our goal is to ensure that you are completely satisfied with every aspect of your VR experience."
+}
+export const AdventuresContent = {
+    h3: "WHY CHOOSE US",
+    h2: "Empowering Your Virtual Reality Experience"
+}
+export const AboutTeamContent = {
+    h3: "OUR TEAM",
+    h2: "Our Professionals Team"
+}
+export const FAQContent ={
+    h3: "FAQ",
+    h2: "Frequently Asked Questions",
+    descr: "At VRNas, we want to make sure that you have all the information you need to make informed decisions about our VR services. Here are some of the most common questions we receive:"
+}
+export const PriceCardsContent ={
+    h3: "PRICING",
+    h2: "Pricing Plans",
+    descr: "Choose the pricing plan that fits your needs and budget. All plans come with a free trial period so you can test out our service and see which plan works best for you."
+}
+export const PrivacyPolicyContent ={
+    h3: "Privacy Policy",
+    h2: "Privacy Policy",
+    descr: "This Privacy Policy describes how [Company Name] collects, uses, and protects the personal information of our website visitors and customers."
+}
+export const VideoServiceContent = {
+    h3: "OUR VR DESIGN PROJECT",
+    h2: "Revolutionize Your Experience with Our Cutting-Edge VR Design Project",
+    h6: "VR Design",
+    h5: "VR Design Projects"
+}

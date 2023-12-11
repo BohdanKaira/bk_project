@@ -1,0 +1,67 @@
+[
+    {
+        "title": "What is virtual reality?",
+        "text": "Virtual reality (VR) is a technology that uses headsets or other devices to create a simulated environment. Users can interact with this environment as if it were real, allowing for immersive experiences in gaming, education, training, and more.",
+        "type": "service"
+    },
+    {
+        "title": "What categories of VR services are available through your offerings?",
+        "text": "VR is widely used for immersive gaming experiences. Users can enter virtual worlds and interact with objects and characters, creating a highly engaging and interactive gaming experience.",
+        "type": "service"
+    },
+    {
+        "title": "Could you provide examples of the various types of VR services that you have available?",
+        "text": "VR is utilized in various industries for training purposes. This includes fields like aviation, healthcare, military, and more. VR simulations can provide a safe environment for practicing complex procedures or scenarios.",
+        "type": "service"
+    },
+    {
+        "title": "What types of VR services do you offer?",
+        "text": "VR can enhance learning by allowing students to explore concepts in a more immersive manner. It can be used for virtual field trips, historical recreations, and interactive educational content.",
+        "type": "service"
+    },
+    {
+        "title": "How much does your VR services cost?",
+        "text": "The cost of our VR services depends on the specific package, features, and level of customization you choose. We offer a range of pricing options to accommodate different budgets and needs. For accurate and detailed pricing information, please visit our website or contact our sales team.",
+        "type": "price"
+    },
+    {
+        "title": "What is the pricing structure for your VR services?",
+        "text": "Our pricing for VR services varies based on the specific package and features you choose. We offer different pricing tiers to accommodate a range of needs and budgets. For detailed pricing information, please visit our website or contact our sales team.",
+        "type": "price"
+    },
+    {
+        "title": "Are there different pricing options available for your VR services?",
+        "text": "Yes, we have multiple pricing options tailored to different levels of service and functionality. Whether you're an individual looking for a specific VR experience or a business seeking comprehensive VR solutions, we have pricing plans that can meet your requirements.",
+        "type": "price"
+    },
+    {
+        "title": "What equipment do I need to use your VR services?",
+        "text": "Many VR experiences require motion controllers for interacting with the virtual environment. These controllers can track your hand movements and gestures, allowing you to manipulate objects and interact with the virtual world.",
+        "type": "service"
+    },
+    {
+        "title": "What are the essential pieces of equipment required to access your VR services?",
+        "text": "To use our VR services, you will need a VR headset, which can be either tethered (connected to a PC or console) or standalone. You'll also require compatible motion controllers, a play area with sufficient space, and, if applicable, a gaming PC or console that meets the headset's requirements.",
+        "type": "service"
+    },
+    {
+        "title": "Could you provide a list of the necessary hardware?",
+        "text": "The equipment needed for our VR services includes a VR headset, such as Oculus Rift or HTC Vive, along with accompanying motion controllers for interaction. If you're using a tethered headset, a gaming PC that meets the recommended specifications is required.",
+        "type": "service"
+    },
+    {
+        "title": "Can I try out your VR services before I commit?",
+        "text": "Yes, you can try out our VR services before committing.",
+        "type": "service"
+    },
+    {
+        "title": "Is it possible to test your VR services before making a commitment?",
+        "text": "Certainly! We offer the option to try out our VR services so you can experience them firsthand and make an informed decision.",
+        "type": "service"
+    },
+    {
+        "title": "Do you provide a trial period for your VR services?",
+        "text": "Yes, we offer a trial period during which you can explore and experience our VR services before making any long-term commitments. This allows you to assess whether our services align with your needs and preferences.",
+        "type": "price"
+    }
+]

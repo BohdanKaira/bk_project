@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import HeroSection from "../components/HeroSection";
+import TermsConditions from "../components/TermsConditions";
 function TermsAndConditions() {
 
     return(
+		<>
         <HeroSection>
             <section className="page__top top-page">
 				<div className="top-page__container">
@@ -20,6 +22,8 @@ function TermsAndConditions() {
 				</div>
 			</section>
         </HeroSection>
+		<TermsConditions />
+		</>
     )
 }
 export default TermsAndConditions;

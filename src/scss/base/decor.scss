@@ -1,0 +1,42 @@
+.decor {
+	z-index: -100;
+	position: absolute;
+}
+.decor_top {
+	opacity: 0.2;
+	top: 0;
+	right: 0;
+	max-width: 100%;
+	img {
+		width: 100%;
+	}
+}
+.decor_about {
+	opacity: 0.5;
+	top: 62.5rem;
+	left: 0;
+	max-width: 100%;
+	img {
+		width: 100%;
+	}
+}
+.decor_bottom {
+	opacity: 0.2;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	transform: rotate(180deg);
+	img {
+		width: 100%;
+	}
+}
+.decor__lines {
+	top: 17.5rem;
+	opacity: 0.5;
+	img {
+		height: 100%;
+	}
+}
+.decor__lines_bottom {
+	bottom: 37.5rem;
+}

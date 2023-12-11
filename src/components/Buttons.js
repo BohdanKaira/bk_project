@@ -6,32 +6,31 @@ export function ContactUsButton() {
 }
 export function DiscoverMore() {
     return(
-        
-        <Link data-aos="fade-up" to="about" className="hero__button _button">discover more</Link>
+        <Link to="about" type="button" className="block-price__button _button">discover more</Link>
     )
 }
 export function ReadMore(){
     return(
-        <Link data-aos="fade-up" to="about" className="about__button _button">read more</Link>
+        <Link to="about" type="button" className="block-price__button _button">read more</Link>
     )
 }
 export function LearnMore(){
     return(
-        <Link to="service" className="item-service__button _button-border">learn more</Link>
+        <Link to="/service/detail-service" type="button" className="item-service__button _button-border">learn more</Link>
     )
 }
 export function GetStarted(){
     return(
-        <Link to="service" className="video__button _button">get started</Link>
+        <Link to="service" type="button" className="video__button _button">get started</Link>
     )
 }
 export function GetStartedPrice(){
     return(
-        <Link to="pricing-plan" className="block-price__button _button">get started</Link>
+        <Link to="pricing-plan" type="button" className="block-price__button _button">get started</Link>
     )
 }
 export function SeeAll(){
     return(
-        <Link to="blog" className="stay-up__button_mobile _button-border">see all</Link>
+        <Link to="blog" type="button" className="stay-up__button_mobile _button-border">see all</Link>
     )
 }
